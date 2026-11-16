@@ -3,23 +3,222 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Metastrata AI</title>
-<style>
-  :root { --ink: #16211c; --muted: #5b6a62; --bg: #f4f4f0; --accent: #0e6b4f; }
-  @media (prefers-color-scheme: dark) { :root { --ink: #e3e8e5; --muted: #9aa8a0; --bg: #111614; --accent: #4cc29a; } }
-  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
-  main { max-width: 640px; margin: 0 auto; padding: 48px 16px; }
-  h1 { font-size: 28px; margin: 0 0 8px; }
-  p { color: var(--muted); }
-  a { color: var(--accent); }
-</style>
+<title>Metastrata AI · Apps made in Kenya</title>
+<meta name="description" content="Metastrata AI builds apps for the way Kenyans live, play and pay: Dira Sports Premier League predictions, the Jua Kenya daily quiz, and the Hazina money tracker.">
+<meta name="theme-color" content="#1F6B52">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="canonical" href="https://metastrata.co.ke/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Metastrata AI">
+<meta property="og:title" content="Metastrata AI · Apps made in Kenya">
+<meta property="og:description" content="Dira Sports, Jua Kenya and Hazina: practical apps for everyday life in Kenya.">
+<meta property="og:url" content="https://metastrata.co.ke/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
 </head>
 <body>
-<main>
-  <h1>Metastrata AI</h1>
-  <p>Apps made in Kenya.</p>
-  <h2>Hazina</h2>
-  <p>A private money tracker for M-Pesa, bank texts and cash. <a href="hazina/privacy/">Privacy policy</a> · <a href="hazina/terms/">Terms of use</a></p>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <nav class="wrap nav" aria-label="Main">
+    <a class="brand" href="/">
+      <svg viewBox="0 0 64 64" width="36" height="36" aria-hidden="true"><polygon points="16,8 60,8 52,22 8,22" fill="#1F6B52"/><polygon points="16,25 60,25 52,39 8,39" fill="#D99A2B"/><polygon points="16,42 60,42 52,56 8,56" fill="#B5482B"/></svg>
+      <span>Metastrata<em> AI</em></span>
+    </a>
+    <div class="nav-links">
+      <a class="nav-secondary" href="#dira">Dira Sports</a>
+      <a class="nav-secondary" href="#jua">Jua Kenya</a>
+      <a class="nav-secondary" href="#hazina">Hazina</a>
+      <a class="nav-secondary" href="#about">About</a>
+      <a class="btn btn-dark" href="#contact">Get in touch</a>
+    </div>
+  </nav>
+</header>
+
+<main id="main">
+
+<section class="wrap hero">
+  <div class="hero-copy">
+    <p class="eyebrow">Apps made in Kenya</p>
+    <h1>Intelligence, layered into everyday life.</h1>
+    <p class="lead">Metastrata AI builds apps for the way Kenyans actually live, play and pay: Premier League predictions with Dira Sports, a daily quiz about Kenya with Jua Kenya, and a private money tracker with Hazina.</p>
+    <div class="actions">
+      <a class="btn btn-green" href="#products">See our apps</a>
+      <a class="btn btn-outline" href="https://www.dirasports.co.ke">Try Dira Sports</a>
+    </div>
+  </div>
+  <nav class="layers" aria-label="Our apps">
+    <a class="layer layer-dira" href="#dira"><strong>Dira Sports</strong><small>Live</small></a>
+    <a class="layer layer-jua" href="#jua"><strong>Jua Kenya</strong><small>Coming soon</small></a>
+    <a class="layer layer-hazina" href="#hazina"><strong>Hazina</strong><small>Coming soon</small></a>
+  </nav>
+</section>
+
+<section id="about" class="about">
+  <div class="wrap">
+    <div class="about-top">
+      <h2 class="h2">Why “Metastrata”?</h2>
+      <p>Strata are layers. We build a shared foundation once (local data, M-Pesa payments, mobile-first delivery) and layer focused apps on top of it. Each app solves one everyday problem well, and each one makes the foundation stronger for the next.</p>
+    </div>
+    <div class="pillars">
+      <div class="pillar" style="border-color:#1F9A72">
+        <h3>Local by design</h3>
+        <p>Kenyan shillings, East Africa Time, all 47 counties, M-Pesa and Kenyan bank texts. Built around how life here works.</p>
+      </div>
+      <div class="pillar" style="border-color:#D99A2B">
+        <h3>Mobile-first</h3>
+        <p>Designed for the phone in your pocket and the network you actually have. Jua Kenya even plays offline.</p>
+      </div>
+      <div class="pillar" style="border-color:#E07355">
+        <h3>Honest numbers</h3>
+        <p>We publish how well Dira’s predictions really do, and Hazina keeps your money data private.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="products" class="wrap products-head">
+  <p class="eyebrow">Our apps</p>
+  <h2 class="h2">Three layers. One foundation.</h2>
+</section>
+
+<section id="dira" class="wrap product dira" aria-labelledby="dira-title">
+  <div class="card">
+    <div class="card-side">
+      <div class="card-title">
+        <p class="tag">01 · Sport · <span>Live</span></p>
+        <h3 id="dira-title">Dira Sports</h3>
+        <p class="meaning">dira (Kiswahili): compass, vision</p>
+      </div>
+      <img src="/assets/dira-mark.png" alt="Dira Sports compass logo" width="140" height="140">
+      <div class="stats">
+        <div class="stat"><b>68%</b><span>of Strong picks were correct</span></div>
+        <div class="stat"><b>2,730</b><span>Premier League matches tested, 2019–2026</span></div>
+      </div>
+    </div>
+    <div class="card-copy">
+      <p class="pitch">Know how likely each result is, before kick-off.</p>
+      <p>Dira Sports gives every English Premier League match a clear Home, Draw and Away probability, worked out from years of results and shot data. Each pick is marked by how confident the model is, so you know which calls are strong and which are a toss-up.</p>
+      <ul class="ticks">
+        <li><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" fill="none" stroke="#1F6B52" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg><span><strong>Home / Draw / Away probabilities</strong> for every Premier League fixture.</span></li>
+        <li><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" fill="none" stroke="#1F6B52" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg><span><strong>Confidence tiers</strong>: Strong, Lean and Toss-up, so you can see how sure each pick is.</span></li>
+        <li><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" fill="none" stroke="#1F6B52" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg><span><strong>Updated every morning</strong> with the latest fixtures and results.</span></li>
+        <li><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" fill="none" stroke="#1F6B52" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg><span><strong>Dira Pro, KES 299 a month</strong>: pay with M-Pesa or card.</span></li>
+      </ul>
+      <p class="fine">Tested fairly: every match from August 2019 to October 2026 was predicted using only games played before it. Overall, 52.7% of top picks were right; bookmakers’ closing odds managed 54.8% on the same matches.</p>
+      <div class="actions"><a class="btn btn-green" href="https://www.dirasports.co.ke">Visit dirasports.co.ke</a></div>
+      <p class="disclaimer">Predictions are for information and entertainment, not betting advice. 18+ only.</p>
+    </div>
+  </div>
+</section>
+
+<section id="jua" class="wrap product jua" aria-labelledby="jua-title">
+  <div class="card">
+    <div class="card-side">
+      <div class="card-title">
+        <p class="tag">02 · Play &amp; learn · <span>Coming soon</span></p>
+        <h3 id="jua-title">Jua Kenya</h3>
+        <p class="meaning">jua (Kiswahili): to know · the sun</p>
+      </div>
+      <img src="/assets/jua-icon.png" alt="Jua Kenya app icon: a sun rising over the horizon" width="128" height="128" style="border-radius:28px">
+      <div class="stats"><div class="stat"><b>47 counties</b><span>one leaderboard</span></div></div>
+    </div>
+    <div class="card-copy">
+      <p class="pitch">How well do you know Kenya?</p>
+      <p>Five questions a day on our history, counties, people, sport, food and Kiswahili. Learn something new with every answer, and earn points for your county.</p>
+      <ul class="ticks">
+        <li><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" fill="none" stroke="#9A6510" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg><span><strong>Daily 5</strong>: the same five questions for everyone in Kenya, every day. About two minutes.</span></li>
+        <li><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" fill="none" stroke="#9A6510" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg><span><strong>County Wars</strong>: every right answer scores for your county. The weekly table resets each Monday.</span></li>
+        <li><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" fill="none" stroke="#9A6510" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg><span><strong>Today in Kenya</strong>: County of the Day, Leo katika Historia, and things that only happen here.</span></li>
+        <li><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" fill="none" stroke="#9A6510" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg><span><strong>Streaks and Practice</strong>: keep your daily streak alive, and practise as much as you like.</span></li>
+      </ul>
+      <div class="actions">
+        <span class="pill-static">Coming soon to Google Play</span>
+        <a class="link-arrow" href="https://juakenya.co.ke">Visit juakenya.co.ke →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="hazina" class="wrap product hazina" aria-labelledby="hazina-title">
+  <div class="card">
+    <div class="card-side">
+      <div class="card-title">
+        <p class="tag">03 · Money · <span>Coming soon</span></p>
+        <h3 id="hazina-title">Hazina</h3>
+        <p class="meaning">hazina (Kiswahili): treasure, treasury</p>
+      </div>
+      <div class="phones">
+        <img src="/assets/hazina-home.png" alt="Hazina home screen: money left this month, money in, spent and saved, and the latest payments" width="450" height="1000" loading="lazy">
+        <img src="/assets/hazina-plan.png" alt="Hazina plan screen: spending against budgets for groceries, transport and eating out" width="450" height="1000" loading="lazy">
+      </div>
+    </div>
+    <div class="card-copy">
+      <p class="pitch">Your M-Pesa and bank texts, turned into a budget.</p>
+      <p>Hazina is a private money tracker for iPhone and Android. It reads the payment texts you already get from M-Pesa and your bank, sorts them for you, and shows what came in, what went out and what’s left this month.</p>
+      <ul class="ticks">
+        <li><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" fill="none" stroke="#B5482B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg><span><strong>No typing</strong>: payments arrive from M-Pesa and bank texts. Add cash by hand.</span></li>
+        <li><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" fill="none" stroke="#B5482B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg><span><strong>Budgets, bills and savings</strong>: plan your payday month and see spending against it.</span></li>
+        <li><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" fill="none" stroke="#B5482B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg><span><strong>People you support</strong>: track what you spend on and send to family.</span></li>
+        <li><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" fill="none" stroke="#B5482B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg><span><strong>Loans, debts and trips</strong>: what you owe, Fuliza and card bills, and budgets for time away.</span></li>
+      </ul>
+      <div class="note-box">
+        <p><strong>Free to start</strong></p>
+        <p>Everything is free for your first 14 days. After that the core app stays free, and Hazina Plus unlocks everything with a single one-time purchase. No subscription.</p>
+      </div>
+      <div class="actions">
+        <span class="pill-static">Coming soon to App Store and Google Play</span>
+        <a class="link-arrow" href="/hazina/privacy/">How Hazina keeps your data private →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="wrap">
+    <div class="contact-copy">
+      <h2 class="h2">Let’s build what’s next, together.</h2>
+      <p>Partners, investors, sponsors, schools and early users: we’d love to hear from you. Based in Nairobi, Kenya.</p>
+    </div>
+    <div class="contact-list">
+      <a class="contact-item" href="mailto:support@juakenya.co.ke"><span>Jua Kenya and general enquiries</span><b>support@juakenya.co.ke</b></a>
+      <a class="contact-item" href="mailto:hazina.support@metastrata.co.ke"><span>Hazina support</span><b>hazina.support@metastrata.co.ke</b></a>
+      <a class="contact-item ghost" href="https://www.dirasports.co.ke"><span>Dira Sports members</span><b>Help at dirasports.co.ke</b></a>
+    </div>
+  </div>
+</section>
+
 </main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-col foot-brand">
+      <a class="brand" href="/">
+        <svg viewBox="0 0 64 64" width="28" height="28" aria-hidden="true"><polygon points="16,8 60,8 52,22 8,22" fill="#1F9A72"/><polygon points="16,25 60,25 52,39 8,39" fill="#D99A2B"/><polygon points="16,42 60,42 52,56 8,56" fill="#E07355"/></svg>
+        <span>Metastrata AI</span>
+      </a>
+      <p>Metastrata AI Limited · Nairobi, Kenya</p>
+      <p>© <span id="year">2026</span> Metastrata AI. All rights reserved.</p>
+    </div>
+    <nav class="foot-col" aria-label="Apps">
+      <h2>Apps</h2>
+      <a href="https://www.dirasports.co.ke">Dira Sports</a>
+      <a href="https://juakenya.co.ke">Jua Kenya</a>
+      <a href="#hazina">Hazina</a>
+    </nav>
+    <nav class="foot-col" aria-label="Privacy and terms">
+      <h2>Privacy and terms</h2>
+      <a href="https://www.dirasports.co.ke/privacy">Dira Sports privacy</a>
+      <a href="https://www.dirasports.co.ke/terms">Dira Sports terms</a>
+      <a href="https://juakenya.co.ke/privacy">Jua Kenya privacy</a>
+      <a href="/hazina/privacy/">Hazina privacy</a>
+      <a href="/hazina/terms/">Hazina terms</a>
+    </nav>
+  </div>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
